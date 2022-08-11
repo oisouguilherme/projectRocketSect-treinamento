@@ -1,0 +1,114 @@
+/*SELETOR BODY É GERAL, TODO O DOCUMENTO */
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+    background: #2C2B3D;
+  
+  }
+  
+  /* UTILIZA . PARA SELECIONAR CLASSES CRIADAS EM HTML*/
+  .page {
+    width: 1280px;/*LARGURA da pagina <-- */
+    margin: 0 auto;
+    padding-top: 65px;
+  }
+  /* DISPLAY É COMO AS "CAIXAS/ELEMENTOS" VÃO SE COMPORTAR// INLINE OU BLOCK */
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 101px;
+  }
+  
+  ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    opacity: 0.5;
+  }
+  /*HOVER É PARA ESTILIZAR BOTAO QUANDO MOUSE PASSA EM CIMA */
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+  #logo {
+    opacity: 1;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+  }
+  
+  section {
+    margin-left: 77px;
+  }
+
+  h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    color: white;
+  
+    font-weight: 700;/* PESO DA FONTE, NEGRITO,NORMAL ? <--*/
+    padding-bottom: 59px;
+  }
+  
+  span {
+    color: #00BFA6
+    ;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    text-align: center;
+    width: 600px ;
+  
+  }
+  
+  strong {
+    color: #C2C2C2
+
+  }
+  /* ESTILIZAÇÃO COMPLETA DO BUTTON*/
+  
+  
+   
+  footer {
+    /* SIZE=TAMANHO*/
+    font-size: 14px;
+    line-height: 28px; 
+    color: white;
+    text-align: center;
+  
+    margin-top: 124px;
+  }
+  
+  footer a {
+    font-weight: bold;
+    opacity: 1;
+  }
+  #line {
+    width: 568px;
+    margin: 0 auto 17px ;
+    border: 1px solid #00BFA6;
+
+  }
+
+  /* # É USADO PARA SELECIONAR ID// UNICOS*/
+  #cadeado {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
