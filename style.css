@@ -107,7 +107,7 @@ body {
   }
 
   /* # É USADO PARA SELECIONAR ID// UNICOS*/
-  #cadeado {
+  #padlock {
     position: fixed;
     bottom: 0;
     left: 0;
